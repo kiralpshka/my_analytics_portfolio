@@ -46,10 +46,10 @@ print(f"   {best_source} — {best_count} регистраций")
 
 print("\n4. Рекомендации:")
 if best_source == 'Instagram':
-    print("   ✅ Инвестируйте больше бюджета в Instagram")
-    print("   ✅ Это самый эффективный канал для вашей школы")
+    print("Инвестируйте больше бюджета в Instagram")
+    print("Это самый эффективный канал для вашей школы")
 else:
-    print(f"   ✅ Канал {best_source} показывает лучшие результаты")
+    print(f"Канал {best_source} показывает лучшие результаты")
 
 # Строим график
 plt.figure(figsize=(10, 6))
@@ -61,5 +61,5 @@ plt.xticks(rotation=0)
 plt.grid(axis='y', alpha=0.3)
 
 plt.savefig('chart.png', dpi=100)
-print("\n✅ График сохранён как chart.png")
+print("\nГрафик сохранён как chart.png")
 plt.show()
